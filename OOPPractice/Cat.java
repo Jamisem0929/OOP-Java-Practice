@@ -9,4 +9,8 @@ public class Cat extends Animal {
     void meow(){
         System.out.printf("Meow%n");
     }
+    @Override
+    public void sleep() {
+        System.out.printf("The cat curls and goes to sleep.%n");
+    }
 }

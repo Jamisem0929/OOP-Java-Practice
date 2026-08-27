@@ -11,4 +11,8 @@ public class Dog extends Animal{
     void bark() {
         System.out.printf("%s says Woof!%n" , name);
     }
+    @Override
+    public void sleep(){
+        System.out.printf("The dog goes to sleep%n");
+    }
 }

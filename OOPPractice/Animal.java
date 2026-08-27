@@ -9,7 +9,7 @@ public class Animal
         this.age = age;
         this.breed = breed;
     }
-    //setter
+    //Getters
     public int getAge() {
         return age;
     }
