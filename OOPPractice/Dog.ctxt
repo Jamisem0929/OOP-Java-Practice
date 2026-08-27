@@ -1,17 +1,7 @@
 #BlueJ class context
-#Thu Aug 27 09:55:13 PDT 2026
+#Thu Aug 27 10:13:50 PDT 2026
 comment0.target=Dog
 comment1.params=name age breed
 comment1.target=Dog(java.lang.String, int, java.lang.String)
-comment2.target=int getAge()
-comment3.target=java.lang.String getName()
-comment4.target=java.lang.String getBreed()
-comment5.params=age
-comment5.target=void setAge(int)
-comment6.params=name
-comment6.target=void setName(java.lang.String)
-comment7.params=breed
-comment7.target=void setBreed(java.lang.String)
-comment8.target=void bark()
-comment9.target=void sleep()
-numComments=10
+comment2.target=void bark()
+numComments=3

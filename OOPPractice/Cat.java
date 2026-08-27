@@ -1,17 +1,12 @@
-public class Cat {
-    String name;
-    int age = 0;
-    String breed;
+public class Cat extends Animal {
+    private String name;
+    private int age = 0;
+    private String breed;
     public Cat(String name , int age, String breed){
-        this.name = name; 
-        this.age = age;
-        this.breed = breed;
+        super(name , age , breed);
     }
-    
+    //other methods
     void meow(){
         System.out.printf("Meow%n");
-    }
-    void sleep(){
-        System.out.printf("ZZZ%n");
     }
 }
