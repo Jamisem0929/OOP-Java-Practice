@@ -1,14 +1,7 @@
 public class Main {
     public static void main(String[] args){
-        Dog dog1 = new Dog();
-        dog1.name = "Max";
-        dog1.age = 3;
-        dog1.breed = "Labrador";
-        Dog dog2 = new Dog();
-        
-        dog2.name = "Charlie";
-        dog2.age = 7;
-        dog2.breed = "Beagle";
+        Dog dog1 = new Dog("Max", 3 , "Labrador");
+        Dog dog2 = new Dog("Charlie" , 7 , "Beagle");
         
         dog1.bark();
         dog1.sleep();
