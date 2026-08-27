@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args){
-        Dog dog1 = new Dog("Max", 3 , "Labrador");
-        Dog dog2 = new Dog("Charlie" , 7 , "Beagle");
-        dog1.bark();
-        dog1.sleep();
-        Cat cat1 = new Cat("luna", 4 , "Siamese"); 
-        System.out.printf("%s%n%d%n%s%n" , cat1.getName() , cat1.getAge() , cat1.getBreed());
-     
+        Animal[] animals = {
+            new Dog("Max" , 4, "labrador"),
+            new Cat("luna", 3, "Siamese"),
+            new Dog("Buddy", 2, "Beagle")
+        };
+        
+        for (Animal animal : animals){
+            animal.makeSound();
+        }
     }
 }

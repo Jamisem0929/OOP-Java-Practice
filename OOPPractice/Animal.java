@@ -39,4 +39,7 @@ public class Animal
      public void sleep() {
         System.out.printf("The animal is sleeping%n");
     }
+    public void makeSound(){
+        System.out.printf("The animal makes a sound");
+    }
 }

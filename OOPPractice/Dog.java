@@ -8,11 +8,12 @@ public class Dog extends Animal{
         super(name , age , breed);
     }
     //other methods
-    void bark() {
-        System.out.printf("%s says Woof!%n" , name);
-    }
     @Override
     public void sleep(){
         System.out.printf("The dog goes to sleep%n");
+    }
+    @Override
+    public void makeSound(){
+        System.out.printf("Woof!%n");
     }
 }

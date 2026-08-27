@@ -6,11 +6,12 @@ public class Cat extends Animal {
         super(name , age , breed);
     }
     //other methods
-    void meow(){
-        System.out.printf("Meow%n");
-    }
     @Override
     public void sleep() {
         System.out.printf("The cat curls and goes to sleep.%n");
+    }
+    @Override
+    public void makeSound(){
+        System.out.printf("Meow!%n");
     }
 }
