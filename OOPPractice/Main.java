@@ -12,13 +12,8 @@ public class Main {
         
         dog1.bark();
         dog1.sleep();
-        Cat cat1 = new Cat();
-        cat1.name = "olive";
-        cat1.age = 5;
-        cat1.breed = "Calico";
-        cat1.meow();
-        cat1.sleep();
-        
-        
+        Cat cat1 = new Cat("luna", 4 , "Siamese");
+        System.out.printf("%s%n%d%n%s%n" , cat1.name , cat1.age , cat1.breed);
+     
     }
 }
